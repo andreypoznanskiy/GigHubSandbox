@@ -178,6 +178,10 @@
     <Compile Include="Migrations\202505021513262_InitialModel.designer.cs">
       <DependentUpon>202505021513262_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202505051815034_Add_Genres_Gigs_Tables.cs" />
+    <Compile Include="Migrations\202505051815034_Add_Genres_Gigs_Tables.designer.cs">
+      <DependentUpon>202505051815034_Add_Genres_Gigs_Tables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -186,6 +190,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\GigFormViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -258,6 +263,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202505021513262_InitialModel.resx">
       <DependentUpon>202505021513262_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202505051815034_Add_Genres_Gigs_Tables.resx">
+      <DependentUpon>202505051815034_Add_Genres_Gigs_Tables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
