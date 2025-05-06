@@ -182,6 +182,10 @@
     <Compile Include="Migrations\202505051815034_Add_Genres_Gigs_Tables.designer.cs">
       <DependentUpon>202505051815034_Add_Genres_Gigs_Tables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202505061345023_Update_Gig_Table_Foreign_Keys.cs" />
+    <Compile Include="Migrations\202505061345023_Update_Gig_Table_Foreign_Keys.designer.cs">
+      <DependentUpon>202505061345023_Update_Gig_Table_Foreign_Keys.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -266,6 +270,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202505051815034_Add_Genres_Gigs_Tables.resx">
       <DependentUpon>202505051815034_Add_Genres_Gigs_Tables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202505061345023_Update_Gig_Table_Foreign_Keys.resx">
+      <DependentUpon>202505061345023_Update_Gig_Table_Foreign_Keys.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
