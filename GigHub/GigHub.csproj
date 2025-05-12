@@ -167,7 +167,9 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AttendancesController.cs" />
     <Compile Include="Controllers\GigsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -186,8 +188,13 @@
     <Compile Include="Migrations\202505061345023_Update_Gig_Table_Foreign_Keys.designer.cs">
       <DependentUpon>202505061345023_Update_Gig_Table_Foreign_Keys.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202505121141466_Add_Attendance.cs" />
+    <Compile Include="Migrations\202505121141466_Add_Attendance.Designer.cs">
+      <DependentUpon>202505121141466_Add_Attendance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Attendance.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Gig.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -275,6 +282,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202505061345023_Update_Gig_Table_Foreign_Keys.resx">
       <DependentUpon>202505061345023_Update_Gig_Table_Foreign_Keys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202505121141466_Add_Attendance.resx">
+      <DependentUpon>202505121141466_Add_Attendance.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
